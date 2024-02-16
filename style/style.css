@@ -14,7 +14,8 @@
 .join,
 .coming,
 .holydays,
-.fortfolio {
+.fortfolio ,
+.newsleter{
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -263,4 +264,47 @@
     justify-content: center;
     align-items: center;
    gap: 20px;
+}
+
+/* newsleter  */
+.newsleter{
+    height: 600px;
+    background: #FFF2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.newsleter-content{
+   text-align: center;
+}
+.newsleter-content h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.newsleter-content p{
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.sub input{
+ outline: none;
+ border: none;
+ padding: 15px 25px;
+ border-radius: 50px 0px 0px 50px;
+}
+.sub button{
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    background-color: red;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
