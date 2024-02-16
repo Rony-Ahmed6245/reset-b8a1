@@ -12,24 +12,35 @@
 .discount,
 .mid-banner,
 .join,
-.coming {
+.coming,
+.holydays,
+.fortfolio {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.top-banner-text-area {
-    background-image: url('../images/Banner\ Image-overlay.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    /* border-radius: 10px; */
+
+
+.top-banner {
+    position: relative;
 }
+
+
+.top-banner-text-area {
+    position: absolute;
+    top: 200px;
+    left: 30%;
+
+}
+
+.top-banner img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+
 
 .top-banner-text1 {
     color: white;
@@ -179,6 +190,7 @@
 .coming-text2 {
     color: gray;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .coming-text3 {
@@ -194,4 +206,61 @@
 .coming-text5 {
     color: gray;
     font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* holydays  */
+.holydays {
+    margin-top: 50px;
+}
+
+.holydays-content h1 {
+    text-align: center;
+    font: 24px;
+}
+
+.fun-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.sale-text {
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+.holydays-content p {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+
+}
+
+/* portfolio  */
+.fortfolio{
+    margin-top: 100px;
+}
+.portfolio-text1 {
+    color: red;
+    font-size: 24px;
+}
+.portfolio-text2 {
+    font-size: 48px;
+}
+.portfolio-text3 {
+    font-size: 20px;
+    width: 580px;
+}
+.portfolio-img img{
+    width: 100%;
+}
+.portfolio-img{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+   gap: 20px;
 }
