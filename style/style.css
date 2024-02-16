@@ -15,7 +15,8 @@
 .coming,
 .holydays,
 .fortfolio ,
-.newsleter{
+.newsleter,
+.end-section{
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -307,4 +308,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* footer  */
+footer{
+    background-color: #070211;
+    width: 100%;
+    height: 500px;
+}
+.footer-content{
+    padding: 40px 0;
+    /* margin: 100px 0px; */
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+   
+}
+.footer-content h1{
+    font-size: 24px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
